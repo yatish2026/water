@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report a Leak - WaterCare Portal</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">💧</span>
+                <span class="logo-text">WaterCare Portal</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="week.html">Weekly Activities</a></li>
+                <li><a href="report.html" class="active">Report Leak</a></li>
+                <li><a href="awareness.html">Safety Tips</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="suggestions.html">Suggestions</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Report a Leak</h1>
+        <p>Help us maintain safe water facilities on campus</p>
+    </section>
+
+    <!-- Report Form -->
+    <section class="form-section">
+        <div class="form-container">
+            <form id="leak-form" class="report-form">
+                <div class="form-group">
+                    <label for="name">Your Name *</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required placeholder="your.email@college.edu">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="+91-XXXXXXXXXX">
+                </div>
+
+                <div class="form-group">
+                    <label for="location">Select Location *</label>
+                    <select id="location" name="location" required>
+                        <option value="">-- Choose a location --</option>
+                        <option value="Main Building">Main Building</option>
+                        <option value="Student Hostel A">Student Hostel A</option>
+                        <option value="Student Hostel B">Student Hostel B</option>
+                        <option value="Library">Library</option>
+                        <option value="Cafeteria">Cafeteria</option>
+                        <option value="Sports Complex">Sports Complex</option>
+                        <option value="Lab Building">Lab Building</option>
+                        <option value="Outdoor Area">Outdoor Area</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="issue-type">Issue Type *</label>
+                    <select id="issue-type" name="issue-type" required>
+                        <option value="">-- Select issue type --</option>
+                        <option value="Leak">Water Leak</option>
+                        <option value="Overflow">Overflow/Flooding</option>
+                        <option value="No Supply">No Water Supply</option>
+                        <option value="Low Pressure">Low Water Pressure</option>
+                        <option value="Contamination">Suspected Contamination</option>
+                        <option value="Damage">Facility Damage</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Detailed Description *</label>
+                    <textarea id="description" name="description" required placeholder="Describe the issue in detail..." rows="5"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="file-upload">Upload Image (Optional)</label>
+                    <div class="file-upload">
+                        <input type="file" id="file-upload" name="file-upload" accept="image/*">
+                        <span class="file-label">📷 Choose file or drag here</span>
+                        <span id="file-name" class="file-name"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="checkbox">
+                        <input type="checkbox" name="consent" required>
+                        <span>I consent to share this information with the administration</span>
+                    </label>
+                </div>
+
+                <button type="submit" class="submit-button">Submit Report</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>WaterCare Portal</h4>
+                <p>Smart Campus Water Safety System</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="week.html">Activities</a></li>
+                    <li><a href="report.html">Report</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="awareness.html">Safety Tips</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="suggestions.html">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: watercareportal@college.edu</p>
+                <p>Phone: +91-XXXX-XXXX-XX</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 WaterCare Portal. All rights reserved. | Community Service Project</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

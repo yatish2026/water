@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Activities - WaterCare Portal</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">💧</span>
+                <span class="logo-text">WaterCare Portal</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="week.html" class="active">Weekly Activities</a></li>
+                <li><a href="report.html">Report Leak</a></li>
+                <li><a href="awareness.html">Safety Tips</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="suggestions.html">Suggestions</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Weekly Activities</h1>
+        <p>6-Week Community Service Plan</p>
+    </section>
+
+    <!-- Activities Content -->
+    <section class="activities-section">
+        <div class="activities-container">
+            <div class="activity-card" onclick="openModal('week1')">
+                <div class="week-badge">Week 1</div>
+                <div class="activity-icon">🔍</div>
+                <h3>Survey of Water Points</h3>
+                <p>Comprehensive assessment of all water facilities on campus</p>
+                <span class="learn-more">Click to learn more →</span>
+            </div>
+
+            <div class="activity-card" onclick="openModal('week2')">
+                <div class="week-badge">Week 2</div>
+                <div class="activity-icon">🧹</div>
+                <h3>Awareness & Cleanliness Drive</h3>
+                <p>Community engagement for water facility maintenance</p>
+                <span class="learn-more">Click to learn more →</span>
+            </div>
+
+            <div class="activity-card" onclick="openModal('week3')">
+                <div class="week-badge">Week 3</div>
+                <div class="activity-icon">📚</div>
+                <h3>Safe Drinking Water Training</h3>
+                <p>Educational sessions on water safety and purification</p>
+                <span class="learn-more">Click to learn more →</span>
+            </div>
+
+            <div class="activity-card" onclick="openModal('week4')">
+                <div class="week-badge">Week 4</div>
+                <div class="activity-icon">💚</div>
+                <h3>Practical Water Conservation</h3>
+                <p>Implementation of water-saving techniques and practices</p>
+                <span class="learn-more">Click to learn more →</span>
+            </div>
+
+            <div class="activity-card" onclick="openModal('week5')">
+                <div class="week-badge">Week 5</div>
+                <div class="activity-icon">🤝</div>
+                <h3>Outreach & Evaluation</h3>
+                <p>Community feedback and impact assessment</p>
+                <span class="learn-more">Click to learn more →</span>
+            </div>
+
+            <div class="activity-card" onclick="openModal('week6')">
+                <div class="week-badge">Week 6</div>
+                <div class="activity-icon">🎉</div>
+                <h3>Exhibition & Conclusion</h3>
+                <p>Final showcase and project presentation to stakeholders</p>
+                <span class="learn-more">Click to learn more →</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>WaterCare Portal</h4>
+                <p>Smart Campus Water Safety System</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="week.html">Activities</a></li>
+                    <li><a href="report.html">Report</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="awareness.html">Safety Tips</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="suggestions.html">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: watercareportal@college.edu</p>
+                <p>Phone: +91-XXXX-XXXX-XX</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 WaterCare Portal. All rights reserved. | Community Service Project</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
