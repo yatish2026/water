@@ -4,7 +4,7 @@ A complete, fully responsive frontend-only web application demonstrating a proto
 
 ## 📋 Project Overview
 
-**WaterCare Portal** is a modern, professional web application built with pure HTML, CSS, and JavaScript (no backend, no frameworks, no API calls). It showcases a comprehensive water safety initiative with dummy data and interactive features suitable for college community service projects.
+**WaterCare Portal** is a modern, professional web application built with pure HTML, CSS, and JavaScript (no backend, no frameworks, no API calls). It showcases a comprehensive water safety initiative with  data and interactive features suitable for college community service projects.
 
 ### Purpose
 - Demonstrate a prototype for water facility management awareness
@@ -34,7 +34,6 @@ A complete, fully responsive frontend-only web application demonstrating a proto
 1. **Home Page (index.html)**
    - Hero section with project introduction
    - 3 quick-access cards
-   - Statistics section with dummy data
    - Team member profiles (5 students + 1 faculty guide)
    - Project mission & vision
    - Footer with links
@@ -49,7 +48,6 @@ A complete, fully responsive frontend-only web application demonstrating a proto
    - Complete form with validation
    - Fields: Name, Email, Phone, Location, Issue Type, Description
    - File upload simulation
-   - Dummy success alert with reference ID
    - Professional form styling
 
 4. **Water Safety Tips (awareness.html)**
@@ -69,7 +67,6 @@ A complete, fully responsive frontend-only web application demonstrating a proto
    - Feedback form
    - Category selection
    - FAQ section
-   - Dummy response system
 
 ---
 
@@ -140,7 +137,6 @@ Text:            #1F2937 (Dark Grey)
 
 ### Form Handling
 - **Leak Report Form**: Validates inputs, shows success alert with reference ID
-- **Suggestion Form**: Collects feedback, shows dummy response
 - **Modal System**: Click activity cards to view details
 
 ### Interactive Features
@@ -154,28 +150,9 @@ Text:            #1F2937 (Dark Grey)
 - ✅ File upload simulation
 - ✅ Intersection Observer for scroll animations
 
-### Dummy Data Responses
-- **Alert Message**: "Your report has been submitted successfully!"
-- **Reference ID**: Auto-generated ID (WCP-xxxxxxxx)
-- **No actual data storage**: Frontend-only demonstration
-
 ---
 
-## 📝 Team Members
-
-### Students
-1. **Aditya Kumar** - Project Lead (Computer Science, 3rd Year)
-2. **Priya Sharma** - Data Analyst (Environmental Science, 2nd Year)
-3. **Rajesh Patel** - Documentation Lead (Civil Engineering, 3rd Year)
-4. **Neha Gupta** - Awareness Coordinator (Public Health, 2nd Year)
-5. **Vikram Singh** - Field Coordinator (Environmental Engineering, 4th Year)
-
-### Faculty Guide
-- **Dr. Rajesh Verma** - Department of Environmental Sciences
-
----
-
-## 📊 Statistics (Dummy Data)
+## 📊 Statistics ()
 
 - **Water Issues Reported**: 42
 - **Awareness Sessions Conducted**: 6
@@ -290,14 +267,6 @@ Edit the team section in `index.html`:
 2. Add data to `weekActivities` object in `js/app.js`
 3. Use `onclick="openModal('weekX')"` to link
 
-### Modify Statistics
-Edit dummy data in `index.html`:
-```html
-<div class="stat-card">
-    <h3 class="stat-number">YOUR_NUMBER</h3>
-    <p>Your Statistic</p>
-</div>
-```
 
 ---
 
@@ -308,16 +277,6 @@ Edit dummy data in `index.html`:
 - ✅ Safari 14+
 - ✅ Edge 90+
 - ✅ Mobile browsers (iOS Safari, Chrome Mobile)
-
----
-
-## 📌 Important Notes
-
-1. **Frontend Only**: All interactions are client-side; no data is saved
-2. **Dummy Responses**: Forms show success alerts but don't submit anywhere
-3. **No External Dependencies**: Everything is vanilla JavaScript
-4. **No API Calls**: All content is hardcoded or generated locally
-5. **Local File Ready**: Works by opening `index.html` directly in browser
 
 ---
 
@@ -357,7 +316,7 @@ This project is created for educational and community service purposes.
 - [x] Modern UI with gradients and animations
 - [x] Form handling with validation
 - [x] Modal system for activities
-- [x] Dummy data and responses
+
 - [x] Team member profiles
 - [x] Statistics section
 - [x] Navigation and footer on all pages
